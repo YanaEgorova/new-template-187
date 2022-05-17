@@ -169,6 +169,22 @@
         color: var(--sub-text-color);
     }
 
+
+
+    .swiper-wrapper {
+        padding-bottom: 7rem;
+    }
+    .swiper-button-next {
+        top: auto;
+        bottom: 0;
+        right: 40%;
+    }
+    .swiper-button-prev {
+        top: auto;
+        bottom: 0;
+        left: 40%;
+    }
+
 }
 
 
