@@ -97,7 +97,8 @@ body.open-menu {
 }
 
 .cart__btn {
-    display: none;
+    margin-right: 2rem;
+    display: flex;
     align-items: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -116,7 +117,11 @@ body.open-menu {
 .nav__item-border {
     display: none;
 }
-
+.header__flex > div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
 
 @media screen and (min-width: 1024px) {
     .cart__btn:hover {
